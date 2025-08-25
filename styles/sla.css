@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    gap: 10px;}
+
+
+.box{
+    background-color: aqua;
+    width:50%
+}
+ @media (max-width: 600px){
+    body{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+}
+@media (min-width: 601px){
+    body{
+        display: flex;
+        gap: 4px;
+    }
+    .box{
+        width: 48%;
+    }
+}
